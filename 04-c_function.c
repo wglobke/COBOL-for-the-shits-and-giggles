@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Build dylib using the command
-// clang -dynamiclib c_function.c -o c_function.dylib
+// cc -dynamiclib c_function.c -o c_function.dylib
 
 unsigned int C_function(unsigned int x, unsigned int y)
 {
