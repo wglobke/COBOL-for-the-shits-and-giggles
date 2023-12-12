@@ -1,9 +1,9 @@
        IDENTIFICATION DIVISION.
 
        PROGRAM-ID.     Generate_Matrix.
-      * requires subprogram 03-prettymatrix.cob
+      * requires subprogram 04-prettymatrix.cob
       * compile with
-      *    cobc -x -std=ibm 03-generatematrix.cob 03-prettymatrix.cob -o 03-generatematrix
+      *    cobc -x -std=ibm 04-generatematrix.cob 04-prettymatrix.cob -o 04-generatematrix
       ****************************
        DATA DIVISION.
        WORKING-STORAGE SECTION.
