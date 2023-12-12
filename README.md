@@ -17,7 +17,7 @@ binary, use the command
 
 This should create three files, <tt>example.c</tt> (the program code), <tt>example.c.h</tt> (constants and auxiliary functions) and <tt>example.c.l.h</tt> ("local" variables from the Working Storage Section).
 
-To compile and linke multiple files, say a subprogram <tt>sub.cob</tt> and a main program <tt>main.cob</tt> into an executable <tt>execfile</tt>, use the command
+To compile and link multiple files, say a subprogram <tt>sub.cob</tt> and a main program <tt>main.cob</tt> into an executable <tt>execfile</tt>, use the command
 
 <tt>cobc -x -std=ibm main.cob sub.cob -o execfile</tt>
 
