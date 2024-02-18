@@ -5,7 +5,7 @@
 
 unsigned int C_function(unsigned int x, unsigned int y)
 {
-    unsigned int q, r;
+    unsigned int r;
 
     printf("[C] Congratulations, you just called a C-function.\n");
 
